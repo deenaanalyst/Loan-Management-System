@@ -10,12 +10,12 @@ A complete SQL-based project for managing loan data, customer income, CIBIL scor
 - Stored Procedures
 - Data Filtering & Classification
 
-## 📁 Dataset Overview
-1. **Customer Income Status**
-2. **Loan Status**
-3. **Customer Information**
-4. **Country and State Info**
-5. **Region Info**
+## 📁 Datasets Included (in /datasets/)
+- Customer_det.csv
+- Customer_income.csv
+- Region_info.csv
+- country_state.csv
+- loan_data_set (main tables).xlsx
 
 ## 📊 Key Features
 - 📌 Classify applicants into Grade A, B, Middle, or Low Class based on income.
@@ -41,10 +41,16 @@ A complete SQL-based project for managing loan data, customer income, CIBIL scor
 - **Stored Procedures for All Filters**
 
 ## 📁 Files Included
-- `project_description.docx` – Original project problem statement
-- `queries.sql` – SQL code (to be added by user)
-- `README.md` – This file
-- 
+
+- Project_description.docx – Original project problem statement
+- queries.sql – All SQL queries (table creation, triggers, joins, procedures)
+- README.md – Project overview and usage guide
+- /datasets/ – Contains all source data files:
+  - Customer_det.csv
+  - Customer_income.csv
+  - Region_info.csv
+  - country_state.csv
+  - loan_data_set (main tables).xlsx
 
 ## 📌 How to Use
 1. Clone or download this repo.
